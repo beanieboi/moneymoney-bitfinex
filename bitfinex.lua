@@ -80,7 +80,6 @@ function InitializeSession(protocol, bankCode, username, username2, password, us
   balances = queryPrivate("auth/r/wallets")
 
   prices = getRates()
-  MM.printStatus(dump(prices))
 end
 
 function ListAccounts(knownAccounts)
