@@ -184,7 +184,7 @@ function httpBuildQuery(params)
 end
 
 function getRates()
-  local rates = {}
+  local rates = {USD = 1 * usdToEurRate}
   local path = string.format("/%s/tickers", apiVersion)
   local query = httpBuildQuery({symbols=currencySymbolsString()})
 
