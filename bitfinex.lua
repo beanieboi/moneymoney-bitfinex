@@ -105,7 +105,7 @@ function RefreshAccount(account, since)
 
     if prices[currencyName] ~= nil and shares > 0 then
       s[#s+1] = {
-        name = currencyName,
+        name = currencyNames[currencyName] .. " (" .. currencyName .. ")",
         market = market,
         currency = nil,
         quantity = shares,
