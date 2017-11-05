@@ -53,7 +53,19 @@ local currencyNames = {
   BCH = "Bitcoin Cash",
   USD = "US Dollar",
   OMG = "Omise GO",
-  ZEC = "ZCash"
+  ZEC = "ZCash",
+  ETC = "Ethereum Classic",
+  XMR = "Monero",
+  DSH = "Dash",
+  SAN = "Santiment",
+  NEO = "Neo",
+  ETP = "Metaverse ETP",
+  QTM = "Qtum",
+  AVT = "Aventus",
+  EDO = "Eidoo",
+  BTG = "Bitcoin Gold",
+  DAT = "Streamr",
+  RRT = "Recovery Right Tokens"
 }
 
 local currencySymbols = {
@@ -65,7 +77,19 @@ local currencySymbols = {
   EOS = "tEOSUSD",
   BCH = "tBCHUSD",
   OMG = "tOMGUSD",
-  ZEC = "tZECUSD"
+  ZEC = "tZECUSD",
+  ETC = "tETCUSD",
+  XMR = "tXMRUSD",
+  DSH = "tDSHUSD",
+  SAN = "tSANUSD",
+  NEO = "tNEOUSD",
+  ETP = "tETPUSD",
+  QTM = "tQTMUSD",
+  AVT = "tAVTUSD",
+  EDO = "tEDOUSD",
+  BTG = "tBTGUSD",
+  DAT = "tDATUSD",
+  RRT = "tRRTUSD"
 }
 
 function SupportsBank(protocol, bankCode)
