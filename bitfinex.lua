@@ -69,7 +69,7 @@ local currencyNames = {
 }
 
 local currencySymbols = {
-  LTC = "tLTCUSD ",
+  LTC = "tLTCUSD",
   ETH = "tETHUSD",
   IOT = "tIOTUSD",
   XRP = "tXRPUSD",
