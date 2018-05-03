@@ -25,7 +25,7 @@
 -- SOFTWARE.
 
 WebBanking{
-  version = 1.0,
+  version = 1.1,
   url = "https://api.bitfinex.com",
   description = "Fetch balances from Bitfinex API and list them as securities",
   services= { "Bitfinex Account" },
