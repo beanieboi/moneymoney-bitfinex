@@ -239,3 +239,5 @@ function currencySymbolsString()
 
   return s
 end
+
+-- SIGNATURE: MCwCFDRLhorBH/Y2kqk36qEmjAJdjEhkAhQyjkZUeiy46K2L+oC/9dyPbpaKBA==
