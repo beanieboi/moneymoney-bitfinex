@@ -224,10 +224,10 @@ end
 
 function getUsdToEurRate()
   connection = Connection()
-  content = connection:request("GET", "https://free.currencyconverterapi.com/api/v5/convert?q=USD_EUR&compact=ultra")
+  content = connection:request("GET", "https://api.exchangeratesapi.io/latest?base=USD&symbols=EUR")
   json = JSON(content):dictionary()
 
-  return json["USD_EUR"]
+  return json["rates"]["EUR"]
 end
 
 function currencySymbolsString()
